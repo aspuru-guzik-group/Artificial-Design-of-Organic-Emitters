@@ -43,6 +43,7 @@ The codes in this repository are a development version of JANUS, which we used t
 - `crossover.py`: This script creates a list of molecules that embody characteristics from two parent molecules.
 - `create_new_gen.py`: This file facilitates the transition from generation 'x' to 'x+1' by invoking the mutation and crossover functions.
 - `EXPERIMENTS/`: This directory contains both the adjusted scripts (incorporating the relevant fitness functions) and the corresponding neural networks, organized based on the specific experiments conducted.
+- `classification_models.zip`: This archive contains the code for training classification models using Bayesian optimization, specifically tailored to individual experiments, and also includes the top-performing models observed across these experiments.
 
 
 
