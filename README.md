@@ -1,6 +1,6 @@
 # Artificial Design of Organic Emitters via a Genetic Algorithm Enhanced by a Deep Neural Network
 This repository contains code for the paper: [Artificial Design of Organic Emitters via a Genetic Algorithm Enhanced by a Deep Neural Network](TODO). 
-By: AkshatKumar Nigam, Robert Pollice, and Alán Aspuru-Guzik
+By: AkshatKumar Nigam, Robert Pollice, Pascal Friederich and Alán Aspuru-Guzik
 
 ## Data Availability
 
