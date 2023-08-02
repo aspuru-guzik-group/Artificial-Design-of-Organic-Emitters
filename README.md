@@ -4,7 +4,7 @@ By: AkshatKumar Nigam, Robert Pollice, Pascal Friederich and Alán Aspuru-Guzik
 
 ## Data Availability
 
-For every experiment conducted, we have made the corresponding data sets available. This includes the SMILES strings, singlet-triplet gaps (STG), oscillator strengths (OS), vertical excitation energies (VEE), and optimized Cartesian coordinates of the molecules. Each of these is provided as a pickle file. Below are the respective links:
+The results of the high-throughput virtual screening of the subset of GDB13 can be downloaded via this [link](). For every artificial design experiment conducted, we have made the corresponding data sets available. This includes the SMILES strings, singlet-triplet gaps (STG), oscillator strengths (OS), vertical excitation energies (VEE), and optimized Cartesian coordinates of the molecules. Each of these is provided as a pickle file. Below are the respective links:
 
 1. [Experiment 1](https://drive.google.com/file/d/1XW8vF_RYZMJpgqjWy4UaiugR9ZN1GogG/view?usp=sharing): Methane Seed - Optimization of STG and OS
 2. [Experiment 2](https://drive.google.com/file/d/1Bn1YZhMJsMCJkyN-rEpF3DUpFqySlejU/view?usp=sharing): Optimization of STG and OS
