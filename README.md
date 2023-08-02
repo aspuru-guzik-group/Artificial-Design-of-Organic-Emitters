@@ -30,7 +30,7 @@ The codes in this repository are a developmental version of JANUS, used to gener
 - `mutate.py`: This script is used to generate a list of mutated (or altered) molecules, starting from a base set.
 - `crossover.py`: This script creates a list of molecules that embody characteristics from two parent molecules.
 - `create_new_gen.py`: This file facilitates the transition from generation 'x' to 'x+1' by invoking the mutation and crossover functions.
-
+- `EXPERIMENTS/`: This directory contains both the adjusted scripts (incorporating the relevant fitness functions) and the corresponding neural networks, organized based on the specific experiments conducted.
 
 
 
