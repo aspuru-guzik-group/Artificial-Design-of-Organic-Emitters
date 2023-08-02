@@ -4,7 +4,7 @@ By: AkshatKumar Nigam, Robert Pollice, and Alán Aspuru-Guzik
 
 ## Data Availability
 
-For every experiment conducted, we have made available the corresponding data set. This includes the SMILES string, singlet-triplet gap (STG), oscillator strength (OS), vertical excitation energy (VEE), and optimized xyz coordinates of molecules. Each of these is provided as a pickle file. Below are the respective links:
+For every experiment conducted, we have made the corresponding data sets available. This includes the SMILES strings, singlet-triplet gaps (STG), oscillator strengths (OS), vertical excitation energies (VEE), and optimized Cartesian coordinates of the molecules. Each of these is provided as a pickle file. Below are the respective links:
 
 1. [Experiment 1](https://drive.google.com/file/d/1XW8vF_RYZMJpgqjWy4UaiugR9ZN1GogG/view?usp=sharing): Methane Seed - Optimization of STG and OS
 2. [Experiment 2](https://drive.google.com/file/d/1Bn1YZhMJsMCJkyN-rEpF3DUpFqySlejU/view?usp=sharing): Optimization of STG and OS
@@ -25,7 +25,7 @@ with open("./collect_FINAL_EXP2.pickle", "rb") as input_file:
 
 ## Prerequisites: 
 
-The following are requred for the scripts: 
+The following are required for running the scripts: 
 - [SELFIES (any version)](https://github.com/aspuru-guzik-group/selfies) - 
   The code was run with v1.0.1.
 - [RDKit](https://www.rdkit.org/docs/Install.html)
@@ -35,9 +35,9 @@ The following are requred for the scripts:
 
 ## File Navigator
 
-We recommend using our genetic algorithm, JANUS, which is available through pip-installation. You can find this at [JANUS Repository](https://github.com/aspuru-guzik-group/JANUS). For more detailed information, you can refer to our publication: [JANUS Paper](https://pubs.rsc.org/en/content/articlelanding/2022/dd/d2dd00003b#!).
+For applying our genetic algorithm to other inverse molecular design tasks, we recommend using the most recent version of JANUS, which is available for installation through pip. You can find the code at [JANUS Repository](https://github.com/aspuru-guzik-group/JANUS). For more detailed information, you can refer to our publication: [JANUS Paper](https://pubs.rsc.org/en/content/articlelanding/2022/dd/d2dd00003b#!).
 
-The codes in this repository are a developmental version of JANUS, used to generate molecules. Here's a breakdown of key files and their roles:
+The codes in this repository are a development version of JANUS, which we used to generate molecules. Here is a breakdown of key files and their roles:
 
 - `mutate.py`: This script is used to generate a list of mutated (or altered) molecules, starting from a base set.
 - `crossover.py`: This script creates a list of molecules that embody characteristics from two parent molecules.
