@@ -13,6 +13,8 @@ For every experiment conducted, we have made available the corresponding data se
 5. [Experiment 5](https://drive.google.com/file/d/19MeNvzUIGAPFxg9qz8Gsgox3ggMStx0M/view?usp=sharing): Optimization of STG and OS
 6. [Experiment 6](https://drive.google.com/file/d/1CM05aY-SCCpth3pu9M5j_cZw_mtMBKfZ/view?usp=sharing): Optimization of STG and OS
 
+The pickle files are structured as dictionaries, where the key-value pairs are formatted as: SMILES string -> [singlet_triplet_gap, oscillator_strength, excitation_energy, xyz_file].
+
 For loading the data, the following code snippet can be utilized:
 
 ```python
@@ -20,6 +22,16 @@ import pickle
 with open("./collect_FINAL_EXP2.pickle", "rb") as input_file:
     data = pickle.load(input_file)  # Smiles -> [singlet_triplet_gap, oscillator_strength, excitation_energy, xyz_file]
 ```
+
+## Prerequisites: 
+
+The following are requred for the scripts: 
+- [SELFIES (any version)](https://github.com/aspuru-guzik-group/selfies) - 
+  The code was run with v1.0.1.
+- [RDKit](https://www.rdkit.org/docs/Install.html)
+- [Python 3.0 or up](https://www.python.org/download/releases/3.0/)
+- [numpy](https://pypi.org/project/numpy/)
+- [Pytorch](https://pytorch.org/)
 
 ## File Navigator
 
