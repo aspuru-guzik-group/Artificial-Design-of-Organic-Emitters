@@ -44,6 +44,8 @@ The codes in this repository are a development version of JANUS, which we used t
 - `create_new_gen.py`: This file facilitates the transition from generation 'x' to 'x+1' by invoking the mutation and crossover functions.
 - `EXPERIMENTS/`: This directory contains both the adjusted scripts (incorporating the relevant fitness functions) and the corresponding neural networks, organized based on the specific experiments conducted.
 - `classification_models.zip`: This archive contains the code for training classification models using Bayesian optimization, specifically tailored to individual experiments, and also includes the top-performing models observed across these experiments.
+- `data/`: This directory contains the results of the high-throughput virtual screening performed and of the validation.
+- `inputs/`: This directory contains the input files of the quantum chemical simulations carried out.
 
 
 
