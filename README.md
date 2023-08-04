@@ -1,5 +1,5 @@
 # Artificial Design of Organic Emitters via a Genetic Algorithm Enhanced by a Deep Neural Network
-This repository contains code for the paper: [Artificial Design of Organic Emitters via a Genetic Algorithm Enhanced by a Deep Neural Network]([https://chemrxiv.org/engage/chemrxiv/article-details/64ca6585dfabaf06ff958a4f](https://doi.org/10.26434/chemrxiv-2023-nrxtl)). 
+This repository contains code for the paper: [Artificial Design of Organic Emitters via a Genetic Algorithm Enhanced by a Deep Neural Network](https://doi.org/10.26434/chemrxiv-2023-nrxtl). 
 By: AkshatKumar Nigam, Robert Pollice, Pascal Friederich and Alán Aspuru-Guzik
 
 ## Data Availability
