@@ -1,0 +1,9 @@
+basis=cc-pVDZ
+calc=sos-adc(2)
+nsing=9
+ntrip=8
+redcost_exc=on
+charge=0
+
+geom=xyz
+yyyyy
