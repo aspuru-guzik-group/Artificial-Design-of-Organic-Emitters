@@ -57,3 +57,5 @@ out in person: (akshat[DOT]nigam[AT]mail[DOT]utoronto[DOT]ca,  r[DOT]pollice[AT]
 
 ## License
 [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
+
+## DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14673582.svg)](https://doi.org/10.5281/zenodo.14673582)
